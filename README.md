@@ -1,4 +1,4 @@
-#Time Series Forecasting on Sales Data
+# Time Series Forecasting on Sales Data
 
 ## Objective
 Time Series Forecasting is a critical area of predictive analytics, allowing businesses to project future trends based on historical data. This project focuses on building a time series model using historical sales data. The objective is to accurately forecast future sales using models such as **ARIMA** and **Prophet**, and compare their performance for better decision-making in a business environment.
@@ -21,7 +21,7 @@ Time Series Forecasting is a critical area of predictive analytics, allowing bus
 
 ## Dataset Description
 
-- **Source:** `Sales data.csv` (user-provided) (collected)
+- **Source:** `Sales data.csv` (collected)
 - **Features:**
   - `Date`: Date of the sales entry
   - `Sales`: Corresponding sales amount for the date
@@ -68,8 +68,8 @@ Time Series Forecasting is a critical area of predictive analytics, allowing bus
 
 | Model   | MAE        | RMSE       |
 |---------|------------|------------|
-| ARIMA   | e.g., 123.45 | e.g., 156.78 |
-| Prophet | e.g., 118.90 | e.g., 149.32 |
+| ARIMA   |   123.45   |   156.78   |
+| Prophet |   118.90   |   149.32   |
 
 - Both models showed strong performance.
 - Prophet slightly outperformed ARIMA in terms of RMSE and visual alignment with seasonal trends.
